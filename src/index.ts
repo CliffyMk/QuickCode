@@ -1,5 +1,5 @@
 import { createInterface } from 'readline';
-import { checkNumberPadding } from './checkNumberPadding';
+import { checkNumberPadding } from './checkNumberPadding.js';
 
 // Create an interface for user input and output
 const rl = createInterface({
