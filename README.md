@@ -6,15 +6,8 @@ Library Used: Typescript
 
 * git clone https://github.com/cliffymk/quickcode
 * cd quickcode
-* npm i
 
-## To Run the program
-
-* Run the below command
-> npm start
-
-* Enter the input array to test
-
-## To Test the code
-* Run the below command
-> npm test
+* npm install
+* npm test      # ✅ Runs from .ts test files
+* npm run build # ✅ Compiles TS to dist/
+* npm start     # ✅ Runs compiled JS
