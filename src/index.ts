@@ -8,7 +8,7 @@ const rl = createInterface({
 });
 
 // Get input from user
-rl.question('Ex: ["001", "002"]\nEnter array of strings to check:\n', (answer: string) => {
+rl.question('Enter array of strings to check number padding:\nEx: ["001", "002"]\n', (answer: string) => {
   // Output the the function
   console.log(`Output: ${checkNumberPadding(JSON.parse(answer))}`);
 

@@ -1,4 +1,4 @@
-import { checkNumberPadding } from './checkNumberPadding';
+import { checkNumberPadding } from '../src/checkNumberPadding';
 
 describe('checkNumberPadding', () => {
     test('Consistent padding', () => {

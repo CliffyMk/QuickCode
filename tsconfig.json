@@ -5,9 +5,15 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "outDir": "./dist",
-  }
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "noEmit": false,
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
