@@ -8,9 +8,13 @@ Library Used: Typescript
 * cd quickcode
 * npm i
 
-## To test
+## To Run the program
 
 * Run the below command
 > npm start
 
 * Enter the input array to test
+
+## To Test the code
+* Run the below command
+> npm test
