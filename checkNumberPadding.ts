@@ -8,8 +8,11 @@ export function checkNumberPadding(intStrs: Iterable<string>): number {
     const paddedLengths = new Set<number>();
     let hasPadding = false;
     let minLength = Infinity;
+    let hasItems = false;
 
     for (const str of intStrs) {
+        hasItems = true;
+
         if (typeof str !== 'string') {
             throw new Error(`Expected string, got ${typeof str}`);
         }
@@ -24,6 +27,10 @@ export function checkNumberPadding(intStrs: Iterable<string>): number {
         }
 
         minLength = Math.min(minLength, str.length);
+    }
+
+    if (!hasItems) {
+        return 0;
     }
 
     if (hasPadding) {
